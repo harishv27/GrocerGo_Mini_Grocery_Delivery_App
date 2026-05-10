@@ -1,3 +1,5 @@
+
+
 # 🛒 GrocerGo — Mini Grocery Delivery App
 
 > A Blinkit-style grocery delivery Android app built with **Kotlin + MVVM + Room DB**  
@@ -108,9 +110,6 @@
 
 ---
 
-## 🎥 Demo
-
-▶️ [Watch Demo Video](demo/demo_recording.mp4)
 
 ## 📁 Project Structure
 
@@ -160,7 +159,6 @@ UI Layer  →  ViewModel Layer  →  Repository Layer  →  Room DB
      observes LiveData / StateFlow
      calls suspend functions via Coroutines
 ```
-
 
 ---
 
