@@ -5,49 +5,6 @@
 
 ---
 
-## 📱 Screenshots
-
-<table>
-  <tr>
-    <td align="center"><b>Splash</b></td>
-    <td align="center"><b>Login</b></td>
-    <td align="center"><b>OTP Verify</b></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/4a0a5a64-667e-436c-967a-1950462481a1" width="200"/></td>
-    <td><img src="https://github.com/user-attachments/assets/53dc139d-0ccb-43d1-b9e2-5baf42b6420e" width="200"/></td>
-    <td><img src="https://github.com/user-attachments/assets/1c34f0ac-3993-4e9b-b03c-4cf37c536692" width="200"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Home Screen</b></td>
-    <td align="center"><b>Category Filter</b></td>
-    <td align="center"><b>Search</b></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/5b324da0-394d-46d6-ad73-810df313c7ab" width="200"/></td>
-    <td><img src="https://github.com/user-attachments/assets/5cbf8074-6055-42b9-9539-b3c05c4fd855" width="200"/></td>
-    <td><img src="https://github.com/user-attachments/assets/436e1b33-2720-410e-80bc-8cf76356e113" width="200"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Cart Screen</b></td>
-    <td align="center"><b>Checkout</b></td>
-    <td align="center"><b>Order Success</b></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/e123f779-2efe-4a5f-8eef-b16dd77dceaf" width="200"/></td>
-    <td><img src="https://github.com/user-attachments/assets/ab6c87ce-3b82-44a8-841b-06e9cf4d44d0" width="200"/></td>
-    <td><img src="https://github.com/user-attachments/assets/c4676ab6-122d-47af-bf51-77695dfdd48d" width="200"/></td>
-  </tr>
-</table>
-
----
-
-## 🎥 Demo
-
-▶️ [Watch Demo Video](demo/demo_recording.mp4)
-
----
-
 ## 📋 Features Implemented
 
 ### 1. 🔐 Login / OTP
@@ -114,21 +71,51 @@
 
 ---
 
+## 📱 Screenshots
+
+<table>
+  <tr>
+    <td align="center"><b>Splash</b></td>
+    <td align="center"><b>Login</b></td>
+    <td align="center"><b>OTP Verify</b></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/4a0a5a64-667e-436c-967a-1950462481a1" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/53dc139d-0ccb-43d1-b9e2-5baf42b6420e" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/1c34f0ac-3993-4e9b-b03c-4cf37c536692" width="200"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Home Screen</b></td>
+    <td align="center"><b>Category Filter</b></td>
+    <td align="center"><b>Search</b></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/5b324da0-394d-46d6-ad73-810df313c7ab" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/5cbf8074-6055-42b9-9539-b3c05c4fd855" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/436e1b33-2720-410e-80bc-8cf76356e113" width="200"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Cart Screen</b></td>
+    <td align="center"><b>Checkout</b></td>
+    <td align="center"><b>Order Success</b></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/e123f779-2efe-4a5f-8eef-b16dd77dceaf" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/ab6c87ce-3b82-44a8-841b-06e9cf4d44d0" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/c4676ab6-122d-47af-bf51-77695dfdd48d" width="200"/></td>
+  </tr>
+</table>
+
+---
+
+## 🎥 Demo
+
+▶️ [Watch Demo Video](demo/demo_recording.mp4)
+
 ## 📁 Project Structure
 
-```
-app/src/main/java/com/example/grocery_app/
-├── data/
-│   ├── db/          → AppDatabase.kt, CartDao.kt
-│   ├── model/       → Product.kt, CartItem.kt, Category.kt, Order.kt
-│   └── repository/  → ProductRepository.kt, CartRepository.kt
-├── viewmodel/       → HomeViewModel.kt, CartViewModel.kt, CheckoutViewModel.kt
-├── ui/
-│   ├── activities/  → Splash, Login, Main, Checkout, OrderSuccess
-│   ├── fragments/   → HomeFragment.kt, CartFragment.kt
-│   └── adapters/    → ProductAdapter.kt, CategoryAdapter.kt, CartAdapter.kt
-└── utils/           → PreferenceManager.kt, Utils.kt
-```
+<img width="874" height="1322" alt="Screenshot 2026-05-10 112819" src="https://github.com/user-attachments/assets/b832177a-7253-4ee4-862c-d2179c1080f9" />
+
 
 ---
 
@@ -164,13 +151,6 @@ Mobile : any 10-digit number
 OTP    : 1234
 ```
 
----
-
-## 📦 APK
-
-[⬇️ Download APK](apk/grocergo-debug.apk)
-
----
 
 ## 🧠 Architecture
 
@@ -181,39 +161,12 @@ UI Layer  →  ViewModel Layer  →  Repository Layer  →  Room DB
      calls suspend functions via Coroutines
 ```
 
----
-
-## ✅ Assignment Checklist
-
-**Requirements**
-- [x] Kotlin only
-- [x] XML layouts only
-- [x] RecyclerView with DiffUtil
-- [x] Add to cart functionality
-- [x] Search / Filter
-- [x] Proper validation
-- [x] Clean UI (Material Design 3)
-- [x] Proper MVVM code structure
-
-**Bonus**
-- [x] MVVM Architecture
-- [x] ViewModel + LiveData + StateFlow
-- [x] Room DB for cart
-- [x] Smooth animations
-- [x] Dark mode support
-
-**Submission**
-- [x] GitHub repository
-- [x] APK file
-- [x] Screen recording
-- [x] README file
 
 ---
 
 ## 👨‍💻 Developed By
 
 **Harish V**  
-Android Developer  
 🔗 [GitHub](https://github.com/harishv27)
 
 ---
